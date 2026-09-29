@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "tipo":"politica",
+        "imagen":"../../img/noticia1.png",
+        "title":"La car con galones",
+        "descripcion":"la CARD despliega mas de 37.000 galones de agua para frenar incendios",
+        "textoBtn":"Se han registrado 570 conflagraciones, que han dejado cerca de 3.144 hectáreas de vegetación afectadas."
+    },
+    {
+        "id": 2,
+        "tipo":"educacion",
+        "imagen":"../../img/noticia2.png",
+        "title":"Contratos laborales",
+        "descripcion":"Mas de 65.000 personas han encontrado empleo en 2026 con cafan",
+        "textoBtn":"Su Ruta de Empleabilidad se une a su Subsidio de Desempleo para apoyar a quienes buscan trabajo."
+    },
+    {
+        "id": 3,
+        "tipo":"tecnologia",
+        "imagen":"../../img/noticia3.png",
+        "title":"IA al explendor",
+        "descripcion":"Ingenico apuesta por IA para transformar los datafonos",
+        "textoBtn":"Asobancaria presenta estrategia para convertir los dispositivos en plataformas connuevos servicios mientras busca crecer 30% en Android en el país."
+    }
+]
+
