@@ -1,0 +1,51 @@
+[
+    {
+        "id": 1,
+        "tipo":"politica",
+        "imagen":"assets/img/noticia1.png",
+        "title":"La car con galones",
+        "descripcion":"la CARD despliega mas de 37.000 galones de agua para frenar incendios",
+        "textoBtn":"Se han registrado 570 conflagraciones, que han dejado cerca de 3.144 hectáreas de vegetación afectadas."
+    },
+    {
+        "id": 2,
+        "tipo":"educacion",
+        "imagen":"assets/img/noticia2.png",
+        "title":"Contratos laborales",
+        "descripcion":"Mas de 65.000 personas han encontrado empleo en 2026 con cafan",
+        "textoBtn":"Su Ruta de Empleabilidad se une a su Subsidio de Desempleo para apoyar a quienes buscan trabajo."
+    },
+    {
+        "id": 3,
+        "tipo":"tecnologia",
+        "imagen":"assets/img/noticia3.png",
+        "title":"IA al explendor",
+        "descripcion":"Ingenico apuesta por IA para transformar los datafonos",
+        "textoBtn":"Asobancaria presenta estrategia para convertir los dispositivos en plataformas connuevos servicios mientras busca crecer 30% en Android en el país."
+    },
+    {
+        "id": 4,
+        "tipo":"deporte",
+        "imagen":"assets/img/noticia6.png",
+        "title":"Nairo Quintana, en su último Mundial",
+        "descripcion":"Nairo Quintana, en su último Mundial de Ciclismo: hora y dónde ver en vivo Montreal 2026",
+        "textoBtn":"Nairo Quintana afrontará este domingo su sexto y último Mundial de ciclismo como profesional."
+    },
+    {
+        "id": 5,
+        "tipo":"deporte",
+        "imagen":"assets/img/noticia5.png",
+        "title":"Stefany Cuadrado deportista con más oros para Colombia",
+        "descripcion":"Colombia y un tercer lugar suramericano que la impulsa hacia Los Ángeles 2028",
+        "textoBtn":"La delegación nacional terminó con 69 oros, 61 platas y 62 bronces. Logró subirse al podio en 27 de los 32 deportes en los que participó. "
+    },
+    {
+        "id": 6,
+        "tipo":"tecnologia",
+        "imagen":"assets/img/noticia4.png",
+        "title":"‘ClickFix’: la trampa en internet",
+        "descripcion":"‘ClickFix’: la trampa en internet que afecta a Mac y Windows y está generando graves problemas a los usuarios",
+        "textoBtn":"La próxima vez que, estando en internet, le salga un aviso en su pantalla de una supuesta alerta de virus en su computador, que a la vez le propone solucionarlo ‘con un simple clic, tenga mucho cuidado."
+    }
+]
+
