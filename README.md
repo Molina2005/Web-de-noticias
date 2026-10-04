@@ -16,41 +16,41 @@ Contiene funciones reutilizables que son utilizadas en diferentes apartados como
 
 `Favoritos`: crea la funcionalidad necesaria para agregar noticias a la sección de favoritos.
 
-* **`BtnEliminacionFavoritos`**: crea el botón utilizado para eliminar noticias de la sección de favoritos.
+`BtnEliminacionFavoritos`: crea el botón utilizado para eliminar noticias de la sección de favoritos.
 
-* **`EliminacionFavoritos`**: obtiene las noticias almacenadas en `LocalStorage` y permite eliminar una noticia utilizando su `id`. Posteriormente, actualiza el arreglo sin la noticia eliminada.
+`EliminacionFavoritos`: obtiene las noticias almacenadas en LocalStorage y permite eliminar una noticia utilizando su id. Posteriormente, actualiza el arreglo sin la noticia eliminada.
 
-* **`LocalStorageFavoritos`**: almacena las noticias seleccionadas por el usuario en `LocalStorage` para posteriormente utilizarlas en el apartado de favoritos.
+`LocalStorageFavoritos`: almacena las noticias seleccionadas por el usuario en LocalStorage para posteriormente utilizarlas en el apartado de favoritos.
 
-### 📄 Pages
+# Pages
 
 Contiene los archivos que implementan la lógica específica de cada página y utilizan las funciones reutilizables de `Common`.
 
-#### Contactanos
+# Contactanos
 
 Se encarga de obtener los datos ingresados en los campos del formulario HTML y realizar las validaciones correspondientes.
 
-> **Nota:** En esta versión, la información se almacena únicamente en `LocalStorage` y se valida que el usuario no registre más de una petición.
+Nota: La información se almacena únicamente en `LocalStorage` y se valida que el usuario no registre más de una petición.
 
-#### Favoritos
+# Favoritos
 
 Contiene la lógica necesaria para mostrar las noticias almacenadas como favoritas. Utiliza las funciones:
 
-* `BtnEliminacionFavoritos`
-* `EliminacionFavoritos`
-* `VerMas`
+`BtnEliminacionFavoritos`
+`EliminacionFavoritos`
+`VerMas`
 
 Estas funciones permiten mostrar las tarjetas de noticias, visualizar información adicional y eliminar noticias de favoritos.
 
-#### Inicio
+# Inicio
 
 Contiene la lógica encargada de mostrar las tarjetas de noticias en la página principal y utiliza la función `VerMas` para permitir visualizar información adicional de cada noticia.
 
-#### Noticias
+# Noticias
 
 Contiene la lógica encargada de mostrar las diferentes tarjetas de noticias y utiliza las funciones `Favoritos` y `VerMas`, permitiendo al usuario consultar la información y agregar noticias a favoritos.
 
-### 🖼️ IMG
+# IMG
 
 Contiene las imágenes utilizadas en el proyecto, incluyendo:
 
@@ -58,34 +58,30 @@ Contiene las imágenes utilizadas en el proyecto, incluyendo:
 * Iconos para agregar noticias a favoritos.
 * Iconos para eliminar noticias de favoritos.
 * Imágenes utilizadas en el footer.
-* Otros recursos gráficos de la interfaz.
 
-### 📦 JSON
+# JSON
 
 Contiene los archivos JSON utilizados como fuente de información para generar dinámicamente las noticias.
 
-#### `CardsGeneralNoticias`
+`CardsGeneralNoticias`
 
-Contiene las noticias que se muestran en el apartado de **Noticias**.
+Contiene las noticias que se muestran en el apartado de Noticias.
 
-#### `CardsNoticias`
+`CardsNoticias`
 
-Contiene las noticias que se muestran en el apartado de **Inicio**, funcionando como una vista previa del contenido disponible en el sitio.
+Contiene las noticias que se muestran en el apartado de Inicio, funcionando como una vista previa del contenido disponible en el sitio.
 
-### 🎨 Maquetación
+# Maquetación
 
-Contiene los archivos **HTML y CSS** utilizados para construir y diseñar las diferentes interfaces del proyecto.
+Contiene los archivos HTML y CSS utilizados para construir y diseñar las diferentes interfaces del proyecto.
 
 Los archivos HTML permiten establecer la estructura de las páginas, mientras que CSS se encarga de definir los estilos y el diseño visual.
 
----
-
-## ⚙️ Funcionalidades principales
+# Funcionalidades principales
 
 El proyecto cuenta con las siguientes funcionalidades:
 
-* Visualización dinámica de noticias.
-* Función **Ver más** para consultar información adicional.
+* Función *Ver más* para consultar información adicional.
 * Agregar noticias a favoritos.
 * Visualización de noticias favoritas.
 * Eliminación de noticias de favoritos.
@@ -94,11 +90,5 @@ El proyecto cuenta con las siguientes funcionalidades:
 * Validación de la información ingresada.
 * Generación dinámica de tarjetas a partir de archivos JSON.
 
----
-
-## 🔗 Repositorio
-
-El código fuente completo del proyecto se encuentra disponible en GitHub para consultar detalladamente la estructura, funciones y desarrollo realizado.
-
-**Repositorio:**
+*Repositorio*
 https://github.com/Molina2005/Web-de-noticias
